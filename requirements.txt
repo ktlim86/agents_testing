@@ -1,0 +1,41 @@
+# DeepEval - Core evaluation framework
+deepeval>=0.21.0
+
+# Testing framework
+pytest>=7.0.0
+pytest-html>=3.1.0
+
+# Data handling and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Local LLM Support (Recommended - Free)
+# No additional dependencies needed for Ollama integration
+
+# OpenAI for LLM-as-a-Judge metrics (Optional - Paid)
+openai>=1.0.0
+
+# Optional: Additional LLM providers
+anthropic>=0.8.0
+# azure-openai>=1.0.0  # Uncomment if using Azure OpenAI
+
+# Report generation
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Utilities
+python-dotenv>=0.19.0
+requests>=2.28.0
+tqdm>=4.64.0
+
+# Documentation
+markdown>=3.4.0
+
+# Optional: MLflow integration (if needed later)
+# mlflow>=2.0.0
+
+# Development dependencies
+black>=22.0.0
+flake8>=5.0.0
+isort>=5.10.0
